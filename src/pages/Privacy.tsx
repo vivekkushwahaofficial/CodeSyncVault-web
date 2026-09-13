@@ -775,14 +775,14 @@ export default function Privacy() {
                       <span>Email:</span>
 
                       <a
-                        href="mailto:vivek39101@gmail.com"
+                        href="mailto:vivekkushwaha.tech@zohomail.in"
                         className="
                           text-purple-400
                           transition-colors
                           hover:text-purple-300
                         "
                       >
-                        vivek39101@gmail.com
+                        vivekkushwaha.tech@zohomail.in
                       </a>
                     </div>
 
