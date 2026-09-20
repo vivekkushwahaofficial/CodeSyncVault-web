@@ -88,17 +88,23 @@ const sections = [
       </ul>
     ),
   },
-  {
-    number: "06",
-    title: "Data Sharing",
-    content: (
-      <p>
-        CodeVault does not sell, rent, or trade user information. Information is
-        processed only as required for CodeVault&apos;s authentication, solution
-        processing, and GitHub synchronization functionality.
-      </p>
-    ),
-  },
+{
+  number: "06",
+  title: "Data Sharing and Limited Use",
+  content: (
+    <p>
+      CodeVault does not sell, rent, or trade user information. User data is
+      processed only as necessary to provide CodeVault&apos;s core
+      functionality, including authentication, accepted-solution processing,
+      and GitHub synchronization.
+      <br />
+      <br />
+      CodeVault does not use or transfer user data for purposes unrelated to
+      the extension&apos;s single purpose. CodeVault does not use or transfer
+      user data to determine creditworthiness or for lending purposes.
+    </p>
+  ),
+},
   {
     number: "07",
     title: "Security",
