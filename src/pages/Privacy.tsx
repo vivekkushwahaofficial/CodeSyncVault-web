@@ -18,59 +18,38 @@ const sections = [
     title: "What CodeVault Does",
     content: (
       <p>
-        CodeVault detects accepted coding submissions on supported coding
-        platforms and helps users synchronize their coding solutions and related
-        information to a GitHub repository selected by the user.
+        CodeVault detects accepted coding submissions on supported platforms and
+        helps users synchronize their solutions and related information to a
+        GitHub repository selected by the user.
       </p>
     ),
   },
   {
     number: "02",
-    title: "Information We Collect",
+    title: "Information We Handle",
     content: (
       <ul className="list-disc space-y-1.5 pl-5">
         <li>
-          GitHub account information obtained through GitHub OAuth, such as
-          GitHub username, user ID, name, email address when available, and
-          profile information.
+          GitHub profile information provided through GitHub authorization.
         </li>
-
+        <li>GitHub OAuth authorization information.</li>
+        <li>Selected repository, branch, and extension settings.</li>
         <li>
-          GitHub authentication information required to authorize GitHub
-          operations.
-        </li>
-
-        <li>
-          Selected GitHub repository, branch, and extension configuration.
-        </li>
-
-        <li>
-          Accepted coding solutions, source code, problem information, and
-          related metadata from supported coding platforms when the user
-          synchronizes a solution.
+          Accepted solutions, source code, problem information, and metadata
+          processed for synchronization.
         </li>
       </ul>
     ),
   },
   {
     number: "03",
-    title: "How We Use Your Information",
+    title: "How We Use Information",
     content: (
       <ul className="list-disc space-y-1.5 pl-5">
         <li>Authenticate your GitHub account.</li>
-
-        <li>Identify the GitHub account and repository you have authorized.</li>
-
-        <li>Upload and update coding solutions in repositories you select.</li>
-
-        <li>
-          Detect accepted coding submissions and collect the information
-          required for synchronization.
-        </li>
-
-        <li>Store your extension settings and repository configuration.</li>
-
-        <li>Provide and maintain CodeVault&apos;s functionality.</li>
+        <li>Synchronize solutions to the repository you select.</li>
+        <li>Process accepted submissions and related metadata.</li>
+        <li>Store settings required for CodeVault to operate.</li>
       </ul>
     ),
   },
@@ -79,18 +58,13 @@ const sections = [
     title: "Data Storage",
     content: (
       <p>
-        CodeVault stores extension settings and GitHub authentication
-        information locally in the user&apos;s browser.
+        CodeVault stores extension settings, repository configuration, and the
+        GitHub access token locally in the browser.
         <br />
         <br />
-        During GitHub authentication, CodeVault sends the GitHub OAuth
-        authorization code to the CodeVault backend so it can exchange the code
-        with GitHub for an access token. The resulting access token is returned
-        to the extension and stored locally in the browser for authorized GitHub
-        operations.
-        <br />
-        <br />
-        CodeVault does not sell user information.
+        During GitHub authentication, the OAuth authorization code is sent to
+        the CodeVault backend for exchange with GitHub. The resulting access
+        token is returned to the extension and stored locally in the browser.
       </p>
     ),
   },
@@ -103,16 +77,13 @@ const sections = [
           <strong className="text-zinc-300">GitHub</strong> — authentication and
           repository operations.
         </li>
-
         <li>
-          <strong className="text-zinc-300">GitHub API</strong> — retrieving
-          authorized GitHub account information and performing repository
-          operations.
+          <strong className="text-zinc-300">CodeVault Backend</strong> — GitHub
+          OAuth authorization-code exchange.
         </li>
-
         <li>
-          <strong className="text-zinc-300">CodeVault Backend</strong> —
-          facilitating the GitHub OAuth authorization-code exchange.
+          <strong className="text-zinc-300">Supported Coding Platforms</strong>{" "}
+          — accepted-submission detection and solution processing.
         </li>
       </ul>
     ),
@@ -122,17 +93,9 @@ const sections = [
     title: "Data Sharing",
     content: (
       <p>
-        CodeVault does not sell, rent, or trade user information.
-        <br />
-        <br />
-        Information is shared only with services required to provide
-        CodeVault&apos;s functionality. This includes sending the GitHub OAuth
-        authorization code to the CodeVault backend and sending authorized
-        repository operations to GitHub.
-        <br />
-        <br />
-        CodeVault does not use user information for advertising,
-        creditworthiness, lending, or unrelated purposes.
+        CodeVault does not sell, rent, or trade user information. Information is
+        processed only as required for CodeVault&apos;s authentication, solution
+        processing, and GitHub synchronization functionality.
       </p>
     ),
   },
@@ -141,30 +104,20 @@ const sections = [
     title: "Security",
     content: (
       <p>
-        CodeVault uses GitHub OAuth for authentication. The GitHub OAuth
-        authorization code is exchanged through the CodeVault backend, and the
-        resulting access token is stored locally in the user&apos;s browser and
-        used for authorized GitHub operations.
-        <br />
-        <br />
-        CodeVault does not intentionally collect or store GitHub passwords.
+        CodeVault uses GitHub OAuth and does not request or intentionally
+        collect GitHub passwords. GitHub access tokens used by the extension are
+        stored locally in the browser.
       </p>
     ),
   },
   {
     number: "08",
-    title: "Data Retention and Removal",
+    title: "Data Removal",
     content: (
       <p>
-        GitHub authentication information and repository configuration remain in
-        the user&apos;s browser until the user disconnects GitHub or clears the
-        extension&apos;s stored data.
-        <br />
-        <br />
-        Users can revoke CodeVault&apos;s GitHub authorization through their
-        GitHub account settings. Removing the extension also removes its locally
-        stored extension data according to the browser&apos;s extension-data
-        handling.
+        Locally stored CodeVault data can be removed by disconnecting GitHub or
+        clearing extension data. Users can also revoke CodeVault&apos;s GitHub
+        authorization through their GitHub account settings.
       </p>
     ),
   },
@@ -173,8 +126,8 @@ const sections = [
     title: "Changes to This Policy",
     content: (
       <p>
-        This Privacy Policy may be updated as CodeVault evolves. Any updates
-        will be published on this page.
+        This policy may be updated when CodeVault&apos;s functionality or data
+        practices change. Updates will be published on this page.
       </p>
     ),
   },
