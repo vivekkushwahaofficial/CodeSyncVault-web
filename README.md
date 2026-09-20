@@ -3,11 +3,8 @@
 > Automatically detect, organize, and synchronize accepted coding solutions from supported coding platforms to GitHub.
 
 ![Version](https://img.shields.io/badge/version-v1.4.1-blue)
-
 ![Status](https://img.shields.io/badge/status-Active-success)
-
 ![License](https://img.shields.io/badge/license-Apache--2.0-green)
-
 ![Platforms](https://img.shields.io/badge/platforms-3-orange)
 
 CodeVault is an open-source browser extension that detects accepted coding submissions, extracts solution code and metadata, and automatically syncs them to a GitHub repository.
@@ -31,7 +28,6 @@ CodeVault is an open-source browser extension that detects accepted coding submi
 ## 🔗 Connect
 
 - [LinkedIn](https://www.linkedin.com/company/codevault-tool/)
-- [GitHub](https://github.com/vivekkushwaofficial/CodeVault)
 
 ## 📥 Install CodeVault
 
@@ -41,7 +37,7 @@ CodeVault works with Chrome, Brave, Edge, and other Chromium-based browsers.
 
 ## 💻 Repository
 
-[https://github.com/vivekkushwaofficial/CodeVault](https://github.com/vivekkushwaofficial/CodeVault)
+[https://github.com/vivekkushwahaofficial/CodeVault](https://github.com/vivekkushwahaofficial/CodeVault)
 
 ## 🛣️ Roadmap
 
@@ -64,13 +60,13 @@ CodeVault uses `develop` as its integration branch.
 5. Commit your changes
 6. Open a Pull Request targeting `develop`
 
-See [CONTRIBUTING.md](https://github.com/vivekkushwaahaofficial/CodeVault/blob/main/CONTRIBUTING.md) for detailed contribution guidelines.
+See [CONTRIBUTING.md](https://github.com/vivekkushwahaofficial/CodeVault?tab=contributing-ov-file) for detailed contribution guidelines.
 
 ## 🔐 Security
 
 Please report security vulnerabilities privately to the CodeVault project maintainers rather than through public issues or pull requests.
 
-See [SECURITY.md](https://github.com/vivekkushwaahaofficial/CodeVault/blob/main/SECURITY.md) for the security policy.
+See [SECURITY.md](https://github.com/vivekkushwahaofficial/CodeVault?tab=security-ov-file) for the security policy.
 
 ## 📄 License
 
