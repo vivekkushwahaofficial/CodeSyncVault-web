@@ -72,24 +72,16 @@ export default function FutureEnhancements() {
       />
 
       <div className="relative mx-auto max-w-7xl">
-
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center">
-
           <div className="inline-flex items-center gap-3">
-            <span
-              aria-hidden="true"
-              className="h-px w-7 bg-purple-400/60"
-            />
+            <span aria-hidden="true" className="h-px w-7 bg-purple-400/60" />
 
             <span className="text-[10px] font-semibold uppercase tracking-[0.3em] text-purple-400 sm:text-xs">
               Future Enhancements
             </span>
 
-            <span
-              aria-hidden="true"
-              className="h-px w-7 bg-purple-400/60"
-            />
+            <span aria-hidden="true" className="h-px w-7 bg-purple-400/60" />
           </div>
 
           <h2 className="mt-4 text-4xl font-bold tracking-[-0.04em] text-white sm:text-5xl lg:text-[3.25rem]">
@@ -97,9 +89,8 @@ export default function FutureEnhancements() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-zinc-400 sm:text-base sm:leading-8">
-            CodeVault is evolving into a complete developer productivity
-            platform with AI-powered automation, analytics, and
-            multi-platform support.
+            CodeVault is evolving with broader platform support, smarter
+            automation, deeper analytics, and AI-powered developer tools.
           </p>
         </div>
 

@@ -5,7 +5,8 @@ import {
   ShieldCheck,
   GitBranch,
   BarChart3,
-    Search,
+  Search,
+  Flame,
 } from "lucide-react";
 
 const features = [
@@ -13,7 +14,7 @@ const features = [
     icon: GitBranch,
     title: "GitHub Sync",
     description:
-      "Authenticate with GitHub once and automatically push every accepted solution directly to your repository.",
+      "Authenticate with GitHub once and automatically push every accepted solution to your repository with an improved connection flow.",
   },
   {
     icon: FolderGit2,
@@ -52,10 +53,10 @@ const features = [
       "Generate a GitHub-compatible 365-day activity heatmap from your solved problem history.",
   },
   {
-    icon: FolderGit2,
-    title: "Pattern & Topic Organization",
+    icon: Flame,
+    title: "Coding Streak",
     description:
-      "Automatically organize and index solutions by detected patterns, topics, and problem tags.",
+      "Track your current and longest coding streak, active days, total solutions, average daily activity, and recent progress.",
   },
   {
     icon: Search,
