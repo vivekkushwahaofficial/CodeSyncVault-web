@@ -94,14 +94,10 @@ const sections = [
   content: (
     <p>
       CodeVault does not sell, rent, or trade user information. User data is
-      processed only as necessary to provide CodeVault&apos;s core
-      functionality, including authentication, accepted-solution processing,
-      and GitHub synchronization.
-      <br />
-      <br />
-      CodeVault does not use or transfer user data for purposes unrelated to
-      the extension&apos;s single purpose. CodeVault does not use or transfer
-      user data to determine creditworthiness or for lending purposes.
+      processed only when necessary to provide CodeVault&apos;s core
+      functionality, including GitHub authentication, accepted-solution
+      processing, and synchronization with the GitHub repository selected by
+      the user.
     </p>
   ),
 },
