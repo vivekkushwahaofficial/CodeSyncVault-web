@@ -16,16 +16,16 @@ const steps = [
   },
   {
     number: "02",
-    title: "CodeVault Detects & Organizes",
+    title: "CodeSyncVault Detects & Organizes",
     description:
-      "CodeVault detects the accepted submission, extracts the solution and metadata, classifies patterns and topics, and prepares the repository files.",
+      "CodeSyncVault detects the accepted submission, extracts the solution and metadata, classifies patterns and topics, and prepares the repository files.",
     icon: GitBranch,
   },
   {
     number: "03",
     title: "Commit & Push to GitHub",
     description:
-      "CodeVault prevents duplicate syncs, updates the repository indexes and README, and commits the solution directly to GitHub.",
+      "CodeSyncVault prevents duplicate syncs, updates the repository indexes and README, and commits the solution directly to GitHub.",
     icon: Upload,
   },
 ];
@@ -82,7 +82,7 @@ export default function Roadmap() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-zinc-400 sm:text-base sm:leading-8">
-            Keep solving coding problems as usual. CodeVault automates
+            Keep solving coding problems as usual. CodeSyncVault automates
             everything after your submission is accepted.
           </p>
         </div>

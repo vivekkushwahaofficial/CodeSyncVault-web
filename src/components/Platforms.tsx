@@ -35,7 +35,7 @@ const platforms = [
   {
     title: "Codeforces",
     description:
-      "Competitive programming support planned for an upcoming CodeVault release.",
+      "Competitive programming support planned for an upcoming CodeSyncVault release.",
     icon: Trophy,
     status: "Coming Soon",
     supported: false,
@@ -109,7 +109,7 @@ export default function Platforms() {
 
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-zinc-400 sm:text-base sm:leading-8">
             Start with LeetCode, GeeksforGeeks, and HackerRank today.
-            CodeVault automatically detects accepted submissions and synchronizes
+            CodeSyncVault automatically detects accepted submissions and synchronizes
             your solutions to GitHub.
           </p>
         </div>

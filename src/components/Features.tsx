@@ -116,7 +116,7 @@ export default function Features() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-zinc-400 sm:text-base sm:leading-8">
-            CodeVault automates your coding portfolio, GitHub repository,
+            CodeSyncVault automates your coding portfolio, GitHub repository,
             and solution management with zero repetitive work.
           </p>
         </div>

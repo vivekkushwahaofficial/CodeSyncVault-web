@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 import { ArrowUpRight, Download, Check, GitBranch } from "lucide-react";
 import { motion } from "framer-motion";
 
-const REPOSITORY_URL = "https://github.com/vivekkushwahaofficial/CodeVault";
+const REPOSITORY_URL = "https://github.com/vivekkushwahaofficial/CodeSyncVault";
 
 const CHROME_WEB_STORE_URL =
   "https://chromewebstore.google.com/detail/codevault/loigjljekeahnjccojnnkmagibghofbn";
@@ -88,7 +88,7 @@ export default function Hero() {
             transition={{ delay: 0.25, duration: 0.5 }}
             className="mx-auto mt-6 max-w-3xl text-sm leading-7 text-zinc-400 sm:text-lg sm:leading-8"
           >
-            CodeVault detects accepted submissions from LeetCode, GeeksforGeeks,
+            CodeSyncVault detects accepted submissions from LeetCode, GeeksforGeeks,
             and HackerRank, then automatically extracts, organizes, analyzes,
             and pushes your solutions directly to GitHub.
           </motion.p>
@@ -108,7 +108,7 @@ export default function Hero() {
               href={CHROME_WEB_STORE_URL}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Install CodeVault extension"
+              aria-label="Install CodeSyncVault extension"
               className="group inline-flex items-center justify-center gap-2.5 rounded-xl bg-purple-500 px-6 py-3.5 text-sm font-semibold text-white shadow-[0_8px_30px_rgba(168,85,247,0.18)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-purple-400 hover:shadow-[0_12px_35px_rgba(168,85,247,0.28)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
             >
               <Download
@@ -164,7 +164,7 @@ export default function Hero() {
               <GitBranch size={15} className="text-purple-400" />
 
               <span className="text-xs font-medium uppercase tracking-[0.24em] text-zinc-500">
-                CodeVault Workflow
+                CodeSyncVault Workflow
               </span>
             </div>
 
@@ -192,7 +192,7 @@ export default function Hero() {
               </h2>
 
               <p className="mt-5 max-w-md text-sm leading-7 text-zinc-400 sm:text-base">
-                Keep solving problems as usual. CodeVault handles detection,
+                Keep solving problems as usual. CodeSyncVault handles detection,
                 extraction, organization, and GitHub synchronization in the
                 background.
               </p>
@@ -265,20 +265,20 @@ export default function Hero() {
 
                   <div className="h-8 w-px bg-gradient-to-b from-orange-400/40 to-purple-400/60" />
 
-                  {/* CodeVault */}
+                  {/* CodeSyncVault */}
                   <div className="w-full rounded-xl border border-purple-400/20 bg-purple-500/[0.06] p-4 shadow-[0_0_35px_rgba(168,85,247,0.07)]">
                     <div className="flex items-center gap-3">
                       <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-purple-400/20 bg-purple-500/10">
                         <img
                           src="/logo.png"
-                          alt="CodeVault"
+                          alt="CodeSyncVault"
                           className="h-7 w-7 object-contain"
                         />
                       </div>
 
                       <div>
                         <p className="text-sm font-semibold text-white">
-                          CodeVault
+                          CodeSyncVault
                         </p>
 
                         <p className="mt-0.5 text-[11px] text-zinc-500">
@@ -331,7 +331,7 @@ export default function Hero() {
                 </div>
 
                 <pre className="max-w-full overflow-x-auto p-4 text-left font-mono text-[11px] leading-[1.6] text-zinc-500 sm:text-[8px]">
-                  <span className="text-zinc-200">codevault-solutions/</span>
+                  <span className="text-zinc-200">codesyncvault-solutions/</span>
                   {"\n"}
                   <span>├── </span>
                   <span className="text-orange-400">GFG/</span>

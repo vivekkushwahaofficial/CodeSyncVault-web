@@ -1,4 +1,4 @@
-# 🚀 CodeVault
+# 🚀 CodeSyncVault
 
 > Automatically detect, organize, and synchronize accepted coding solutions from supported coding platforms to GitHub.
 
@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-Apache--2.0-green)
 ![Platforms](https://img.shields.io/badge/platforms-3-orange)
 
-CodeVault is an open-source browser extension that detects accepted coding submissions, extracts solution code and metadata, and automatically syncs them to a GitHub repository.
+CodeSyncVault is an open-source browser extension that detects accepted coding submissions, extracts solution code and metadata, and automatically syncs them to a GitHub repository.
 
 ## ✨ Features
 
@@ -23,21 +23,21 @@ CodeVault is an open-source browser extension that detects accepted coding submi
 
 ## 🌐 Website
 
-[https://code-vault-website.vercel.app/](https://code-vault-website.vercel.app/)
+[https://codesyncvault.vercel.app/](https://codesyncvault.vercel.app/)
 
 ## 🔗 Connect
 
-- [LinkedIn](https://www.linkedin.com/company/codevault-tool/)
+- [LinkedIn](https://www.linkedin.com/company/codesyncvault/)
 
-## 📥 Install CodeVault
+## 📥 Install CodeSyncVault
 
 [![Install from Chrome Web Store](https://img.shields.io/badge/Install-Chrome%20Web%20Store-blue?logo=googlechrome)](https://chromewebstore.google.com/detail/codevault/loigjljekeahnjccojnnkmagibghofbn)
 
-CodeVault works with Chrome, Brave, Edge, and other Chromium-based browsers.
+CodeSyncVault works with Chrome, Brave, Edge, and other Chromium-based browsers.
 
 ## 💻 Repository
 
-[https://github.com/vivekkushwahaofficial/CodeVault](https://github.com/vivekkushwahaofficial/CodeVault)
+[https://github.com/vivekkushwahaofficial/CodeSyncVault](https://github.com/vivekkushwahaofficial/CodeSyncVault)
 
 ## 🛣️ Roadmap
 
@@ -51,7 +51,7 @@ CodeVault works with Chrome, Brave, Edge, and other Chromium-based browsers.
 
 Contributions, feature requests, and bug reports are welcome.
 
-CodeVault uses `develop` as its integration branch.
+CodeSyncVault uses `develop` as its integration branch.
 
 1. Fork the repository
 2. Sync your fork with `develop`
@@ -60,13 +60,13 @@ CodeVault uses `develop` as its integration branch.
 5. Commit your changes
 6. Open a Pull Request targeting `develop`
 
-See [CONTRIBUTING.md](https://github.com/vivekkushwahaofficial/CodeVault?tab=contributing-ov-file) for detailed contribution guidelines.
+See [CONTRIBUTING.md](https://github.com/vivekkushwahaofficial/CodeSyncVault?tab=contributing-ov-file) for detailed contribution guidelines.
 
 ## 🔐 Security
 
-Please report security vulnerabilities privately to the CodeVault project maintainers rather than through public issues or pull requests.
+Please report security vulnerabilities privately to the CodeSyncVault project maintainers rather than through public issues or pull requests.
 
-See [SECURITY.md](https://github.com/vivekkushwahaofficial/CodeVault?tab=security-ov-file) for the security policy.
+See [SECURITY.md](https://github.com/vivekkushwahaofficial/CodeSyncVault?tab=security-ov-file) for the security policy.
 
 ## 📄 License
 

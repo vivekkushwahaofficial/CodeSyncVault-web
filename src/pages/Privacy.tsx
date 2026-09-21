@@ -15,10 +15,10 @@ import { FaGithub } from "react-icons/fa6";
 const sections = [
   {
     number: "01",
-    title: "What CodeVault Does",
+    title: "What CodeSyncVault Does",
     content: (
       <p>
-        CodeVault detects accepted coding submissions on supported platforms and
+        CodeSyncVault detects accepted coding submissions on supported platforms and
         helps users synchronize their solutions and related information to a
         GitHub repository selected by the user.
       </p>
@@ -49,7 +49,7 @@ const sections = [
         <li>Authenticate your GitHub account.</li>
         <li>Synchronize solutions to the repository you select.</li>
         <li>Process accepted submissions and related metadata.</li>
-        <li>Store settings required for CodeVault to operate.</li>
+        <li>Store settings required for CodeSyncVault to operate.</li>
       </ul>
     ),
   },
@@ -58,12 +58,12 @@ const sections = [
     title: "Data Storage",
     content: (
       <p>
-        CodeVault stores extension settings, repository configuration, and the
+        CodeSyncVault stores extension settings, repository configuration, and the
         GitHub access token locally in the browser.
         <br />
         <br />
         During GitHub authentication, the OAuth authorization code is sent to
-        the CodeVault backend for exchange with GitHub. The resulting access
+        the CodeSyncVault backend for exchange with GitHub. The resulting access
         token is returned to the extension and stored locally in the browser.
       </p>
     ),
@@ -78,7 +78,7 @@ const sections = [
           repository operations.
         </li>
         <li>
-          <strong className="text-zinc-300">CodeVault Backend</strong> — GitHub
+          <strong className="text-zinc-300">CodeSyncVault Backend</strong> — GitHub
           OAuth authorization-code exchange.
         </li>
         <li>
@@ -93,8 +93,8 @@ const sections = [
   title: "Data Sharing and Limited Use",
   content: (
     <p>
-      CodeVault does not sell, rent, or trade user information. User data is
-      processed only when necessary to provide CodeVault&apos;s core
+      CodeSyncVault does not sell, rent, or trade user information. User data is
+      processed only when necessary to provide CodeSyncVault&apos;s core
       functionality, including GitHub authentication, accepted-solution
       processing, and synchronization with the GitHub repository selected by
       the user.
@@ -106,7 +106,7 @@ const sections = [
     title: "Security",
     content: (
       <p>
-        CodeVault uses GitHub OAuth and does not request or intentionally
+        CodeSyncVault uses GitHub OAuth and does not request or intentionally
         collect GitHub passwords. GitHub access tokens used by the extension are
         stored locally in the browser.
       </p>
@@ -117,8 +117,8 @@ const sections = [
     title: "Data Removal",
     content: (
       <p>
-        Locally stored CodeVault data can be removed by disconnecting GitHub or
-        clearing extension data. Users can also revoke CodeVault&apos;s GitHub
+        Locally stored CodeSyncVault data can be removed by disconnecting GitHub or
+        clearing extension data. Users can also revoke CodeSyncVault&apos;s GitHub
         authorization through their GitHub account settings.
       </p>
     ),
@@ -128,17 +128,17 @@ const sections = [
     title: "Changes to This Policy",
     content: (
       <p>
-        This policy may be updated when CodeVault&apos;s functionality or data
+        This policy may be updated when CodeSyncVault&apos;s functionality or data
         practices change. Updates will be published on this page.
       </p>
     ),
   },
 ];
 
-const GITHUB_URL = "https://github.com/vivekkushwahaofficial/CodeVault";
+const GITHUB_URL = "https://github.com/vivekkushwahaofficial/CodeSyncVault";
 
 const RELEASE_URL =
-  "https://github.com/vivekkushwahaofficial/CodeVault/releases/latest";
+  "https://github.com/vivekkushwahaofficial/CodeSyncVault/releases/latest";
 
 export default function Privacy() {
   const [isOpen, setIsOpen] = useState(false);
@@ -174,12 +174,12 @@ export default function Privacy() {
           <Link
             to="/"
             onClick={closeMenu}
-            aria-label="CodeVault home"
+            aria-label="CodeSyncVault home"
             className="group flex shrink-0 items-center gap-2.5"
           >
             <img
               src="/logo.png"
-              alt="CodeVault"
+              alt="CodeSyncVault"
               className="
                 h-9 w-9
                 object-contain
@@ -190,7 +190,7 @@ export default function Privacy() {
             />
 
             <span className="text-lg font-bold tracking-tight text-white sm:text-xl">
-              CodeVault
+              CodeSyncVault
             </span>
           </Link>
 
@@ -288,7 +288,7 @@ export default function Privacy() {
               href={GITHUB_URL}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="View CodeVault on GitHub"
+              aria-label="View CodeSyncVault on GitHub"
               className="
                 group inline-flex
                 h-10 w-10
@@ -585,7 +585,7 @@ export default function Privacy() {
                 sm:text-base
               "
             >
-              How CodeVault handles information required to provide its
+              How CodeSyncVault handles information required to provide its
               functionality.
             </p>
 
@@ -747,7 +747,7 @@ export default function Privacy() {
                       <span>Website:</span>
 
                       <a
-                        href="https://code-vault-website.vercel.app"
+                        href="https://codesyncvault.vercel.app"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="
@@ -759,7 +759,7 @@ export default function Privacy() {
                           hover:text-purple-300
                         "
                       >
-                        code-vault-website.vercel.app
+                        codesyncvault.vercel.app
                         <ExternalLink size={13} aria-hidden="true" />
                       </a>
                     </div>
@@ -789,7 +789,7 @@ export default function Privacy() {
           >
             <div>
               <p className="text-sm font-medium text-zinc-300">
-                CodeVault is open source.
+                CodeSyncVault is open source.
               </p>
 
               <p className="mt-1 text-xs text-zinc-600">
@@ -854,7 +854,7 @@ export default function Privacy() {
           text-zinc-600
         "
       >
-        © {new Date().getFullYear()} CodeVault. All rights reserved.
+        © {new Date().getFullYear()} CodeSyncVault. All rights reserved.
       </footer>
     </div>
   );

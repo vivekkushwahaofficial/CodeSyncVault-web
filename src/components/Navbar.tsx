@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { ArrowUpRight, Download, Menu, X } from "lucide-react";
 
-const GITHUB = "https://github.com/vivekkushwahaofficial/CodeVault";
+const GITHUB = "https://github.com/vivekkushwahaofficial/CodeSyncVault";
 
 const CHROME_WEB_STORE_URL =
   "https://chromewebstore.google.com/detail/codevault/loigjljekeahnjccojnnkmagibghofbn";
@@ -142,16 +142,16 @@ export default function Navbar() {
           to="/"
           onClick={closeMenu}
           className="group flex shrink-0 items-center gap-2.5"
-          aria-label="CodeVault home"
+          aria-label="CodeSyncVault home"
         >
           <img
             src="/logo.png"
-            alt="CodeVault"
+            alt="CodeSyncVault"
             className="h-9 w-9 object-contain transition-transform duration-300 group-hover:scale-105 sm:h-10 sm:w-10"
           />
 
           <span className="text-lg font-bold tracking-tight text-white sm:text-xl">
-            CodeVault
+            CodeSyncVault
           </span>
         </Link>
 
@@ -209,7 +209,7 @@ export default function Navbar() {
             href={GITHUB}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="View CodeVault on GitHub"
+            aria-label="View CodeSyncVault on GitHub"
             className="group inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.03] text-zinc-300 transition-all duration-200 hover:border-white/20 hover:bg-white/[0.07] hover:text-white"
           >
             <FaGithub
@@ -223,7 +223,7 @@ export default function Navbar() {
             href={CHROME_WEB_STORE_URL}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Install CodeVault"
+            aria-label="Install CodeSyncVault"
             className="group hidden items-center gap-2 rounded-xl border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm font-medium text-white transition-all duration-200 hover:border-purple-400/40 hover:bg-white/[0.08] md:inline-flex"
           >
             <Download
