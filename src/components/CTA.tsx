@@ -1,7 +1,7 @@
 import { ArrowRight, CheckCircle2, Download } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 
-const GITHUB_URL = "https://github.com/vivekkushwahaofficial/CodeVault";
+const GITHUB_URL = "https://github.com/vivekkushwahaofficial/CodeSyncVault";
 
 const CHROME_WEB_STORE_URL =
   "https://chromewebstore.google.com/detail/codevault/loigjljekeahnjccojnnkmagibghofbn";
@@ -98,7 +98,7 @@ export default function CTA() {
               sm:text-base sm:leading-8
             "
           >
-            Let CodeVault automatically detect, organize, and synchronize your
+            Let CodeSyncVault automatically detect, organize, and synchronize your
             accepted coding solutions while you focus on solving problems.
           </p>
 

@@ -12,7 +12,7 @@ const futureEnhancements = [
     icon: Globe2,
     title: "Expanded Platform Support",
     description:
-      "Add Codeforces, CodeChef, AtCoder, and additional coding platforms to CodeVault.",
+      "Add Codeforces, CodeChef, AtCoder, and additional coding platforms to CodeSyncVault.",
   },
   {
     icon: Bot,
@@ -89,7 +89,7 @@ export default function FutureEnhancements() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-zinc-400 sm:text-base sm:leading-8">
-            CodeVault is evolving with broader platform support, smarter
+            CodeSyncVault is evolving with broader platform support, smarter
             automation, deeper analytics, and AI-powered developer tools.
           </p>
         </div>

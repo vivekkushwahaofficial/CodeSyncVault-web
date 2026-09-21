@@ -1,11 +1,11 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
-const GITHUB = "https://github.com/vivekkushwahaofficial/CodeVault";
+const GITHUB = "https://github.com/vivekkushwahaofficial/CodeSyncVault";
 
-const GITLAB = "https://gitlab.com/vivekkushwahaofficial/codevault";
+const GITLAB = "https://gitlab.com/vivekkushwahaofficial/codesyncvault";
 
-const LINKEDIN = "https://www.linkedin.com/company/codevault-tool/";
+const LINKEDIN = "https://www.linkedin.com/company/codesyncvault/";
 
 const OWNER_PROFILE = "https://vivekkushwahaofficial.tech/";
 
@@ -23,12 +23,12 @@ export default function Footer() {
             <Link
               to="/"
               onClick={() => window.scrollTo(0, 0)}
-              aria-label="CodeVault Home"
+              aria-label="CodeSyncVault Home"
               className="group inline-flex items-center gap-3"
             >
               <img
                 src="/logo.png"
-                alt="CodeVault logo"
+                alt="CodeSyncVault logo"
                 className="
                   h-10 w-10
                   object-contain
@@ -38,7 +38,7 @@ export default function Footer() {
               />
 
               <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
-                CodeVault
+                CodeSyncVault
               </h2>
             </Link>
 
@@ -54,7 +54,7 @@ export default function Footer() {
                 href={GITHUB}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Open CodeVault GitHub repository"
+                aria-label="Open CodeSyncVault GitHub repository"
                 className="
                   inline-flex h-10 w-10
                   items-center justify-center
@@ -82,7 +82,7 @@ export default function Footer() {
                 href={LINKEDIN}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Open CodeVault LinkedIn page"
+                aria-label="Open CodeSyncVault LinkedIn page"
                 className="
                   inline-flex h-10 w-10
                   items-center justify-center
@@ -283,7 +283,7 @@ export default function Footer() {
 
               {/* Description */}
               <p className="max-w-2xl text-sm leading-6 text-zinc-400">
-                Building CodeVault to help developers organize and sync coding
+                Building CodeSyncVault to help developers organize and sync coding
                 solutions automatically.
               </p>
 
@@ -338,7 +338,7 @@ export default function Footer() {
               md:text-left
             "
           >
-            <p>© {new Date().getFullYear()} CodeVault. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} CodeSyncVault. All rights reserved.</p>
 
             <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 md:justify-end">
               <Link
