@@ -31,7 +31,7 @@ export default function Hero() {
           >
             <span className="h-1.5 w-1.5 rounded-full bg-purple-400 shadow-[0_0_10px_rgba(168,85,247,0.8)]" />
 
-            <span>v1.4.2 Released</span>
+            <span>v1.4.1 Released</span>
 
             <ArrowUpRight size={13} />
           </motion.div>
@@ -361,7 +361,7 @@ export default function Hero() {
                   <span className="text-zinc-300">Array-Manipulation/</span>
                   {"\n"}
                   <span>│ └── </span>
-                  <span className="text-yellow-400">Solution.py</span>
+                  <span className="text-yellow-400">Solution.java</span>
                   {"\n\n"}
                   <span>└── </span>
                   <span className="text-orange-400">LeetCode/</span>
