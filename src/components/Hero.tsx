@@ -31,7 +31,7 @@ export default function Hero() {
           >
             <span className="h-1.5 w-1.5 rounded-full bg-purple-400 shadow-[0_0_10px_rgba(168,85,247,0.8)]" />
 
-            <span>v1.4.1 Released</span>
+            <span>v1.4.2 Released</span>
 
             <ArrowUpRight size={13} />
           </motion.div>
@@ -88,9 +88,9 @@ export default function Hero() {
             transition={{ delay: 0.25, duration: 0.5 }}
             className="mx-auto mt-6 max-w-3xl text-sm leading-7 text-zinc-400 sm:text-lg sm:leading-8"
           >
-            CodeSyncVault detects accepted submissions from LeetCode, GeeksforGeeks,
-            and HackerRank, then automatically extracts, organizes, analyzes,
-            and pushes your solutions directly to GitHub.
+            CodeSyncVault detects accepted submissions from LeetCode,
+            GeeksforGeeks, and HackerRank, then automatically extracts,
+            organizes, analyzes, and pushes your solutions directly to GitHub.
           </motion.p>
 
           {/* =================================================
@@ -156,7 +156,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.55, duration: 0.7 }}
-          className="mx-auto mt-10 max-w-6xl overflow-hidden rounded-[28px] border border-white/[0.08] bg-[#111113] shadow-[0_30px_100px_rgba(0,0,0,0.4)] sm:mt-14"
+          className="mx-auto mt-10 w-full max-w-6xl overflow-hidden rounded-[28px] border border-white/[0.08] bg-[#111113] shadow-[0_30px_100px_rgba(0,0,0,0.4)] sm:mt-14"
         >
           {/* Top bar */}
           <div className="flex items-center justify-between border-b border-white/[0.07] px-5 py-4 sm:px-6">
@@ -175,12 +175,12 @@ export default function Hero() {
           </div>
 
           {/* Main content */}
-          <div className="grid lg:grid-cols-[1.05fr_0.95fr_1fr]">
+          <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr_1fr]">
             {/* =================================================
                 WORKFLOW
             ================================================== */}
 
-            <div className="border-b border-white/[0.07] p-6 sm:p-8 lg:border-b-0 lg:border-r">
+            <div className="border-b border-white/[0.07] p-5 sm:p-8 lg:border-b-0 lg:border-r">
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.3em] text-purple-400">
                 Workflow
               </p>
@@ -197,7 +197,7 @@ export default function Hero() {
                 background.
               </p>
 
-              <div className="mt-8 grid grid-cols-3 gap-2">
+              <div className="mt-8 grid grid-cols-1 gap-2 sm:grid-cols-3">
                 {[
                   {
                     number: "01",
@@ -217,7 +217,7 @@ export default function Hero() {
                 ].map((step) => (
                   <div
                     key={step.number}
-                    className="rounded-xl border border-white/[0.07] bg-white/[0.025] px-3 py-3"
+                    className="rounded-xl border border-white/[0.07] bg-white/[0.025] px-4 py-3 sm:px-3"
                   >
                     <span className={`text-[11px] font-semibold ${step.color}`}>
                       {step.number}
@@ -235,13 +235,13 @@ export default function Hero() {
                 SYNC FLOW
             ================================================== */}
 
-            <div className="border-b border-white/[0.07] p-6 sm:p-8 lg:border-b-0 lg:border-r">
+            <div className="border-b border-white/[0.07] p-5 sm:p-8 lg:border-b-0 lg:border-r">
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.3em] text-purple-400">
                 Sync flow
               </p>
 
               <div className="mt-6 flex items-center justify-center">
-                <div className="flex w-full max-w-[250px] flex-col items-center">
+                <div className="flex w-full max-w-[250px] flex-col items-center sm:max-w-[280px]">
                   {/* LeetCode */}
                   <div className="w-full rounded-xl border border-white/[0.08] bg-white/[0.025] p-4">
                     <div className="flex items-center gap-3">
@@ -318,66 +318,99 @@ export default function Hero() {
                 REPOSITORY TREE
             ================================================== */}
 
-            <div className="min-w-0 p-6 sm:p-8">
+            <div className="min-w-0 p-5 sm:p-8">
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.3em] text-purple-400">
                 Repository
               </p>
 
-              <div className="mt-6 min-w-0 overflow-hidden rounded-xl border border-white/[0.07] bg-[#0c0c0e]">
-                <div className="flex items-center gap-1.5 border-b border-white/[0.06] px-4 py-3">
-                  <span className="h-2 w-2 rounded-full bg-red-400/70" />
-                  <span className="h-2 w-2 rounded-full bg-yellow-400/70" />
-                  <span className="h-2 w-2 rounded-full bg-emerald-400/70" />
-                </div>
+              {/* Repository Tree */}
+              <div className="w-full overflow-x-auto p-3 sm:p-4">
+                <div className="min-w-max font-mono text-[9px] leading-[1.8] sm:text-[9px]">
+                  {/* Root */}
+                  <div className="text-zinc-200">codesyncvault-solutions/</div>
 
-                <pre className="max-w-full overflow-x-auto p-4 text-left font-mono text-[11px] leading-[1.6] text-zinc-500 sm:text-[8px]">
-                  <span className="text-zinc-200">codesyncvault-solutions/</span>
-                  {"\n"}
-                  <span>├── </span>
-                  <span className="text-orange-400">GFG/</span>
-                  {"\n"}
-                  <span>│ └── </span>
-                  <span className="text-blue-400">Java/</span>
-                  {"\n"}
-                  <span>│ └── </span>
-                  <span className="text-emerald-400">Easy/</span>
-                  {"\n"}
-                  <span>│ └── </span>
-                  <span className="text-zinc-300">Missing-in-Array/</span>
-                  {"\n"}
-                  <span>│ └── </span>
-                  <span className="text-yellow-400">Solution.java</span>
-                  {"\n\n"}
-                  <span>├── </span>
-                  <span className="text-purple-400">HackerRank/</span>
-                  {"\n"}
-                  <span>│ └── </span>
-                  <span className="text-blue-400">Java/</span>
-                  {"\n"}
-                  <span>│ └── </span>
-                  <span className="text-red-400">Hard/</span>
-                  {"\n"}
-                  <span>│ └── </span>
-                  <span className="text-zinc-300">Array-Manipulation/</span>
-                  {"\n"}
-                  <span>│ └── </span>
-                  <span className="text-yellow-400">Solution.java</span>
-                  {"\n\n"}
-                  <span>└── </span>
-                  <span className="text-orange-400">LeetCode/</span>
-                  {"\n"}
-                  <span> └── </span>
-                  <span className="text-blue-400">C++/</span>
-                  {"\n"}
-                  <span> └── </span>
-                  <span className="text-emerald-400">Easy/</span>
-                  {"\n"}
-                  <span> └── </span>
-                  <span className="text-zinc-300">Two-Sum/</span>
-                  {"\n"}
-                  <span> └── </span>
-                  <span className="text-yellow-400">Solution.cpp</span>
-                </pre>
+                  {/* GFG */}
+                  <div className="text-zinc-500">
+                    <span>├── </span>
+                    <span className="text-orange-400">GFG/</span>
+                  </div>
+
+                  <div className="pl-4 text-zinc-500">
+                    <span>└── </span>
+                    <span className="text-blue-400">Java/</span>
+                  </div>
+
+                  <div className="pl-8 text-zinc-500">
+                    <span>└── </span>
+                    <span className="text-emerald-400">Easy/</span>
+                  </div>
+
+                  <div className="pl-12 text-zinc-500">
+                    <span>└── </span>
+                    <span className="text-zinc-300">Missing-in-Array/</span>
+                  </div>
+
+                  <div className="pl-16 text-zinc-500">
+                    <span>└── </span>
+                    <span className="text-yellow-400">Solution.java</span>
+                  </div>
+
+                  <div className="h-2" />
+
+                  {/* HackerRank */}
+                  <div className="text-zinc-500">
+                    <span>├── </span>
+                    <span className="text-purple-400">HackerRank/</span>
+                  </div>
+
+                  <div className="pl-4 text-zinc-500">
+                    <span>└── </span>
+                    <span className="text-blue-400">Java/</span>
+                  </div>
+
+                  <div className="pl-8 text-zinc-500">
+                    <span>└── </span>
+                    <span className="text-red-400">Hard/</span>
+                  </div>
+
+                  <div className="pl-12 text-zinc-500">
+                    <span>└── </span>
+                    <span className="text-zinc-300">Array-Manipulation/</span>
+                  </div>
+
+                  <div className="pl-16 text-zinc-500">
+                    <span>└── </span>
+                    <span className="text-yellow-400">Solution.java</span>
+                  </div>
+
+                  <div className="h-2" />
+
+                  {/* LeetCode */}
+                  <div className="text-zinc-500">
+                    <span>└── </span>
+                    <span className="text-orange-400">LeetCode/</span>
+                  </div>
+
+                  <div className="pl-4 text-zinc-500">
+                    <span>└── </span>
+                    <span className="text-blue-400">C++/</span>
+                  </div>
+
+                  <div className="pl-8 text-zinc-500">
+                    <span>└── </span>
+                    <span className="text-emerald-400">Easy/</span>
+                  </div>
+
+                  <div className="pl-12 text-zinc-500">
+                    <span>└── </span>
+                    <span className="text-zinc-300">Two-Sum/</span>
+                  </div>
+
+                  <div className="pl-16 text-zinc-500">
+                    <span>└── </span>
+                    <span className="text-yellow-400">Solution.cpp</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
